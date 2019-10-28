@@ -2,7 +2,7 @@
 package duration
 
 import (
-	"github.com/Symantec/tricorder/go/tricorder/units"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 	"time"
 )
 

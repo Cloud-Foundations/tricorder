@@ -5,7 +5,7 @@ Using tricorder in code
 
 Use the tricorder package in your application like so:
 
-	import "github.com/Symantec/tricorder/go/tricorder"
+	import "github.com/Cloud-Foundations/tricorder/go/tricorder"
 	import "net/http"
 	import "net/rpc"
 	func main() {
@@ -65,7 +65,7 @@ Response is a messages.Metric type.
 
 Example:
 
-	import "github.com/Symantec/tricorder/go/tricorder/messages"
+	import "github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
 	client, _ := rpc.DialHTTP("tcp", ":8080")
 	defer client.Close()
 	var metrics messages.MetricList

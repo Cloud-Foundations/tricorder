@@ -2,15 +2,15 @@ package tricorder
 
 import (
 	"errors"
-	"github.com/Symantec/tricorder/go/tricorder/messages"
-	"github.com/Symantec/tricorder/go/tricorder/units"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 	"time"
 )
 
 // CollectorServiceName contains the name of the service that collects tricorder
 // metrics. This is used in environments where ingress to applications is
 // routinely blocked, and the applications need to call out to the collector.
-// See the github.com/Symantec/Dominator/lib/net/reverseconnection package for
+// See the github.com/Cloud-Foundations/Dominator/lib/net/reverseconnection package for
 // more information.
 const CollectorServiceName = "Scotty"
 

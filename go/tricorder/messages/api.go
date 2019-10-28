@@ -5,8 +5,8 @@ package messages
 import (
 	"encoding/gob"
 	"errors"
-	"github.com/Symantec/tricorder/go/tricorder/types"
-	"github.com/Symantec/tricorder/go/tricorder/units"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/types"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 	"time"
 )
 

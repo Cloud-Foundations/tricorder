@@ -1,8 +1,8 @@
 package tricorder
 
 import (
-	"github.com/Symantec/tricorder/go/tricorder/units"
-	"github.com/Symantec/tricorder/go/tricorder/wrapper"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/wrapper"
 	"os"
 	"runtime"
 	"strings"

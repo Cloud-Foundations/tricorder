@@ -1,7 +1,7 @@
 package tricorder
 
 import (
-	"github.com/Symantec/tricorder/go/tricorder/messages"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
 	"net/rpc"
 )
 
