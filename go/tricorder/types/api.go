@@ -3,7 +3,7 @@ package types
 
 import (
 	"fmt"
-	"github.com/Symantec/tricorder/go/tricorder/duration"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/duration"
 	"time"
 )
 

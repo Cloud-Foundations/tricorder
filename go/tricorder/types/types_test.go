@@ -1,8 +1,8 @@
 package types_test
 
 import (
-	"github.com/Symantec/tricorder/go/tricorder/messages"
-	"github.com/Symantec/tricorder/go/tricorder/types"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/types"
 	"testing"
 	"time"
 )

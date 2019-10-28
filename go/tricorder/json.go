@@ -3,7 +3,7 @@ package tricorder
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/Symantec/tricorder/go/tricorder/messages"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
 	"net/http"
 )
 
