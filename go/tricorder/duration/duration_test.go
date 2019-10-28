@@ -105,7 +105,7 @@ func TestTime(t *testing.T) {
 		t.Errorf("Expected %v, got %v", expected, actual)
 	}
 	if out := expected.AsGoTime().UTC(); out != tm {
-		t.Errorf("Expected %d, got %d", tm, out)
+		t.Errorf("Expected %v, got %v", tm, out)
 	}
 	expected = Duration{Seconds: 0, Nanoseconds: 1}
 	tm = epoch.Add(time.Nanosecond)
@@ -114,7 +114,7 @@ func TestTime(t *testing.T) {
 		t.Errorf("Expected %v, got %v", expected, actual)
 	}
 	if out := expected.AsGoTime().UTC(); out != tm {
-		t.Errorf("Expected %d, got %d", tm, out)
+		t.Errorf("Expected %v, got %v", tm, out)
 	}
 	expected = Duration{Seconds: 1, Nanoseconds: 0}
 	tm = epoch.Add(time.Second)
@@ -123,7 +123,7 @@ func TestTime(t *testing.T) {
 		t.Errorf("Expected %v, got %v", expected, actual)
 	}
 	if out := expected.AsGoTime().UTC(); out != tm {
-		t.Errorf("Expected %d, got %d", tm, out)
+		t.Errorf("Expected %v, got %v", tm, out)
 	}
 	expected = Duration{Seconds: 1, Nanoseconds: 999999999}
 	tm = epoch.Add(2*time.Second - time.Nanosecond)
@@ -132,7 +132,7 @@ func TestTime(t *testing.T) {
 		t.Errorf("Expected %v, got %v", expected, actual)
 	}
 	if out := expected.AsGoTime().UTC(); out != tm {
-		t.Errorf("Expected %d, got %d", tm, out)
+		t.Errorf("Expected %v, got %v", tm, out)
 	}
 	expected = Duration{Seconds: 0, Nanoseconds: -1}
 	tm = epoch.Add(-time.Nanosecond)
@@ -141,7 +141,7 @@ func TestTime(t *testing.T) {
 		t.Errorf("Expected %v, got %v", expected, actual)
 	}
 	if out := expected.AsGoTime().UTC(); out != tm {
-		t.Errorf("Expected %d, got %d", tm, out)
+		t.Errorf("Expected %v, got %v", tm, out)
 	}
 	expected = Duration{Seconds: -1, Nanoseconds: 0}
 	tm = epoch.Add(-time.Second)
@@ -150,7 +150,7 @@ func TestTime(t *testing.T) {
 		t.Errorf("Expected %v, got %v", expected, actual)
 	}
 	if out := expected.AsGoTime().UTC(); out != tm {
-		t.Errorf("Expected %d, got %d", tm, out)
+		t.Errorf("Expected %v, got %v", tm, out)
 	}
 	expected = Duration{Seconds: -1, Nanoseconds: -999999999}
 	tm = epoch.Add(-2*time.Second + time.Nanosecond)
@@ -159,7 +159,7 @@ func TestTime(t *testing.T) {
 		t.Errorf("Expected %v, got %v", expected, actual)
 	}
 	if out := expected.AsGoTime().UTC(); out != tm {
-		t.Errorf("Expected %d, got %d", tm, out)
+		t.Errorf("Expected %v, got %v", tm, out)
 	}
 }
 
