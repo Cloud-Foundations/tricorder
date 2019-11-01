@@ -1,0 +1,3 @@
+package tricorder
+
+func registerRusage() {}
