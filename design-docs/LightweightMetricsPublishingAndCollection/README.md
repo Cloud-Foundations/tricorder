@@ -180,4 +180,4 @@ With an efficient encoding format (~20 bytes per metric), a fleet-wide collectio
 Implementation
 ==============
 
-The metrics publishing library is an Open Source project hosted on the [Symantec/tricorder](https://github.com/Symantec/tricorder) page at [GitHub](https://www.github.com/). It will contain implementations for several popular languages. The first implementation is written in the [Go](https://www.golang.org/) programming language. Contributions are welcome.
+The metrics publishing library is an Open Source project hosted on the [Cloud-Foundations/tricorder](https://github.com/Cloud-Foundations/tricorder) page at [GitHub](https://www.github.com/). It will contain implementations for several popular languages. The first implementation is written in the [Go](https://www.golang.org/) programming language. Contributions are welcome.
