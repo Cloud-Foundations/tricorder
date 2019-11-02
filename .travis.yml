@@ -1,6 +1,7 @@
 language: go
 
 before_install:
+    - go get github.com/mattn/goveralls
     - REPO_NAME=$(basename $PWD)
     - GITHUB_PATH=$(dirname $(dirname $PWD))
     - CF_PROJECT_DIR=${GITHUB_PATH}/Cloud-Foundations/${REPO_NAME}
