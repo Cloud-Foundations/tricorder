@@ -1,10 +1,15 @@
 language: go
-before_install:
-- REPO_NAME=$(basename $PWD)
-- GITHUB_PATH=$(dirname $(dirname $PWD))
-- CF_PROJECT_DIR=${GITHUB_PATH}/Cloud-Foundations/${REPO_NAME}
-- mkdir -p ${CF_PROJECT_DIR}
-- rsync -az ${TRAVIS_BUILD_DIR}/ ${CF_PROJECT_DIR}/
-- export TRAVIS_BUILD_DIR=${CF_PROJECT_DIR}
-- cd ${CF_PROJECT_DIR}
 
+before_install:
+    - REPO_NAME=$(basename $PWD)
+    - GITHUB_PATH=$(dirname $(dirname $PWD))
+    - CF_PROJECT_DIR=${GITHUB_PATH}/Cloud-Foundations/${REPO_NAME}
+    - mkdir -p ${CF_PROJECT_DIR}
+    - rsync -az ${TRAVIS_BUILD_DIR}/ ${CF_PROJECT_DIR}/
+    - export TRAVIS_BUILD_DIR=${CF_PROJECT_DIR}
+    - cd ${CF_PROJECT_DIR}
+
+script:
+    - go test -covermode=count -coverprofile=coverage.out ./...
+    - $HOME/gopath/bin/goveralls -coverprofile=coverage.out -service=travis-ci
+    - make test

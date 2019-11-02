@@ -1,4 +1,8 @@
 # Library for publishing metrics which can be pulled or viewed via HTTP
+[![Build Status](https://travis-ci.org/Cloud-Foundations/tricorder.svg?branch=master)](https://travis-ci.org/Cloud-Foundations/tricorder)
+[![Coverage Status](https://coveralls.io/repos/github/Cloud-Foundations/tricorder/badge.svg?branch=master)](https://coveralls.io/github/Cloud-Foundations/tricorder?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Cloud-Foundations/tricorder)](https://goreportcard.com/report/github.com/Cloud-Foundations/tricorder)
+
 This is a library which can be used by applications to publish metrics.
 The metrics are made available via HTTP, using the same port as the webserver
 for the application. There is a browsable, human-friendly interface as well
