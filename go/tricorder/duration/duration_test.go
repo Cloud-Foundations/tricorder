@@ -1,9 +1,10 @@
 package duration
 
 import (
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 	"testing"
 	"time"
+
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 )
 
 func TestConversions(t *testing.T) {

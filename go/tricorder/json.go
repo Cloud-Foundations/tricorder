@@ -3,8 +3,9 @@ package tricorder
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
 	"net/http"
+
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
 )
 
 var (

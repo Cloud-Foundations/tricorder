@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 	"log"
 	"net/http"
 	"net/rpc"
 	"time"
+
+	"github.com/Cloud-Foundations/tricorder/go/tricorder"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 )
 
 var kAnIntList *tricorder.List

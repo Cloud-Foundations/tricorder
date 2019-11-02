@@ -4,11 +4,12 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
 	"log"
 	"net/rpc"
 	"os"
 	"time"
+
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
 )
 
 func printAsJson(desc string, value interface{}) {

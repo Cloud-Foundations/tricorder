@@ -5,9 +5,10 @@ package messages
 import (
 	"encoding/gob"
 	"errors"
+	"time"
+
 	"github.com/Cloud-Foundations/tricorder/go/tricorder/types"
 	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
-	"time"
 )
 
 var (

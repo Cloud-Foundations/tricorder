@@ -4,10 +4,6 @@ import (
 	"bytes"
 	"flag"
 	"fmt"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/duration"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/types"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 	"math"
 	"reflect"
 	"sort"
@@ -16,6 +12,11 @@ import (
 	"sync"
 	"time"
 	"unsafe"
+
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/duration"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/types"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 )
 
 const (

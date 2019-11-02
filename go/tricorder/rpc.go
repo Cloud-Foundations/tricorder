@@ -1,8 +1,9 @@
 package tricorder
 
 import (
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
 	"net/rpc"
+
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
 )
 
 func rpcAsMetric(m *metric, s *session) *messages.Metric {
