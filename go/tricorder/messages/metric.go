@@ -2,11 +2,12 @@ package messages
 
 import (
 	"fmt"
+	"reflect"
+	"time"
+
 	"github.com/Cloud-Foundations/tricorder/go/tricorder/duration"
 	"github.com/Cloud-Foundations/tricorder/go/tricorder/types"
 	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
-	"reflect"
-	"time"
 )
 
 func valueAsString(value interface{}) (valueStr string, err error) {

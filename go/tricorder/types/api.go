@@ -3,8 +3,9 @@ package types
 
 import (
 	"fmt"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/duration"
 	"time"
+
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/duration"
 )
 
 // Type represents the type of a metric value
@@ -263,7 +264,7 @@ func (t Type) FromFloat(value float64) interface{} {
 	case GoDuration:
 		return duration.FromFloat(value)
 	default:
-		panic("Type doesn't support converstion from a float")
+		panic("Type doesn't support conversion from a float")
 	}
 }
 

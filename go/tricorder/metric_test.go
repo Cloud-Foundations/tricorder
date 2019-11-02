@@ -3,15 +3,16 @@ package tricorder
 import (
 	"errors"
 	"flag"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/types"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 	"math"
 	"reflect"
 	"strings"
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/types"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 )
 
 type messageType int
@@ -1308,7 +1309,7 @@ func TestAPI(t *testing.T) {
 		&anIntValue,
 		units.None,
 		"some metric"); err != nil {
-		t.Errorf("Registration of /bar/baz should have succeded, got %v", err)
+		t.Errorf("Registration of /bar/baz should have succeeded, got %v", err)
 	}
 
 	if err := RegisterMetric(

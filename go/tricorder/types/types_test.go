@@ -1,10 +1,11 @@
 package types_test
 
 import (
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/types"
 	"testing"
 	"time"
+
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/types"
 )
 
 func TestZeroValue(t *testing.T) {

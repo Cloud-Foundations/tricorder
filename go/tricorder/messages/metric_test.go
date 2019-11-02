@@ -1,11 +1,12 @@
 package messages
 
 import (
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/types"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 	"reflect"
 	"testing"
 	"time"
+
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/types"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 )
 
 var (

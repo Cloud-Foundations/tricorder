@@ -2,14 +2,15 @@ package tricorder
 
 import (
 	"fmt"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/types"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 	"html/template"
 	"io"
 	"net/http"
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/types"
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 )
 
 const (

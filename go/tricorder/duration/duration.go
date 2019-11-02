@@ -3,11 +3,12 @@ package duration
 import (
 	"errors"
 	"fmt"
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 	"math"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 )
 
 const (

@@ -2,8 +2,9 @@
 package duration
 
 import (
-	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 	"time"
+
+	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
 )
 
 // Duration represents a duration of time

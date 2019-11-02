@@ -2,9 +2,10 @@ package tricorder
 
 import (
 	"errors"
+	"time"
+
 	"github.com/Cloud-Foundations/tricorder/go/tricorder/messages"
 	"github.com/Cloud-Foundations/tricorder/go/tricorder/units"
-	"time"
 )
 
 // CollectorServiceName contains the name of the service that collects tricorder
